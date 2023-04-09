@@ -332,7 +332,6 @@ body{
         align-self: center;
         position: relative;
         text-align: center;
-      
     }
 
     .image_1{
@@ -341,7 +340,6 @@ body{
     .image_1 img{
         width: 100%;
         justify-content: center;
-
     }
     .container{
         margin-top: 30px;
@@ -422,7 +420,6 @@ body{
         justify-content: center;
         align-content: center;
         margin-top: 20px;
-        
     }
     .nFactorial{
         justify-content: flex-start;
