@@ -1,0 +1,431 @@
+body{
+    background-color: #F1F1F1;
+    font-family: 'Kanit', sans-serif;
+}
+.style{
+    display: flex;
+    padding: auto;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+}
+
+.nav{
+    padding: auto;
+    /* сбоку пространство */
+    padding-left:60px;
+    padding-right:60px;
+   }
+.header{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 10px;
+    margin-bottom: 50px;;
+
+}
+.header-menu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 40px;
+    gap: 80px;
+    grid-template-columns: 40% 50%;
+}
+.container_left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+.image_1{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+
+.image_1 img{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+.section2{
+    display: flex;
+    border-radius: 32px;
+    width: 100%;
+    height: 562px;
+    flex-direction: column;
+    align-content: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 70px;
+}
+.How{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left:60px;
+   
+}
+.num1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.num1 img{
+    display: flex;
+    width: 35px;
+    height: 64px;
+    margin-bottom: 30px;
+}
+.num2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.num2 img{
+    display: flex;
+    width: 35px;
+    height: 64px;
+    margin-bottom: 30px;
+}
+.num3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.num3 img{
+    display: flex;
+    width: 35px;
+    height: 64px;
+    margin-bottom: 30px;
+}
+
+.searchRow img{
+    width: 20px;
+    height: 20px;
+}
+
+.started_texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    text-size-adjust: 16px;
+
+}
+.started{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 80px;
+    padding-left:60px;
+}
+.searchRow{
+    display: flex;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #E1DEE7;
+    padding-left: 10px;
+    border-radius: 12px;
+    flex-direction: row;
+    width: 619px;
+    height: 50px;
+    gap: 20px;
+    align-items: center;
+
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.searchButton{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: baseline;
+}
+.uploadCV{
+    display: grid;
+    flex-direction: row;
+    margin-top: 80px;;
+    margin-left:60px;
+    margin-right:60px;
+    margin-bottom: 80px;
+    grid-template-columns: 50% 40%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.BlackGirl img{
+    display: flex;
+    width: 100%;
+    
+}
+
+.upload_texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+.upload_button{
+    display: flex;
+    flex-direction: row;
+    grid-area: 50% 40%;
+}
+
+.upload_button img{
+    justify-content: flex-start;
+    width: 20px;
+    height: 20px;
+}
+
+.arrowButton{
+    display: flex;
+    width: 100%;
+    color: white; 
+    justify-content: center; 
+    border-radius: 100px; 
+    border: none; 
+    padding: 16px 24px; 
+    height: 50px; 
+    width: 114px;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 32px;
+    border-radius: 32px 32px 0px 0px;
+      
+ 
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.link{
+    display: flex;
+    padding-right: 60px;
+    width: 50%;
+    align-items: flex-end;
+}
+.home img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-items: center;
+    padding: auto;
+}
+
+.nFactorial{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;;
+    margin-right: 60px;
+}
+
+
+@media only screen and (max-width: 768px)  {
+
+    .header_btn{
+        display: none;
+    }
+    .nav{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header{
+        width: 90%;
+    }
+    .header-logo{
+        margin-bottom: 30px;
+
+    }
+    .section1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+
+    }
+
+    .section2{
+        height: 100%;
+    }
+
+    .container_left{
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        gap: 0px;
+        margin-bottom: 20px;;
+    }
+    .container_left. btn{
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .container_left. h2{
+        align-self: center;
+        position: relative;
+        text-align: center;
+      
+    }
+
+    .image_1{
+        justify-content: center;
+    }
+    .image_1 img{
+        width: 100%;
+        justify-content: center;
+
+    }
+    .container{
+        margin-top: 30px;
+    }
+    .numbers{
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+    .num1 img{
+        margin-bottom: 0px;
+    }
+    .started{
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .started_texts{
+        align-items: center;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .searchRow{
+        width: 100%;
+    }
+    .search{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .searchButton{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .uploadCV{
+        flex-direction: column;
+        grid-template-columns: none;
+        margin-left: 0px;
+        padding-left: 30px;
+        margin-right: 0px;
+        padding-right: 30px;
+        display: flex;
+    }
+    .BlackGirl{
+        width: 100%;;
+        margin-bottom: 50px;
+    }
+
+    .arrowButton{
+        width: 100%;
+    }
+
+    .home{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .buttons{
+        width: 80%;
+        flex-direction: column;
+        padding-left: 30px;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .link{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 80%;
+        justify-content: center;
+        align-content: center;
+        margin-top: 20px;
+        
+    }
+    .nFactorial{
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+}
